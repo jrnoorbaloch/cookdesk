@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-09 17:01:10.809702",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "items"
+ ],
+ "fields": [
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Add Items",
+   "options": "Item Kitchen Mapping Row"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-09 17:01:44.164116",
+ "modified_by": "Administrator",
+ "module": "Cook Desk",
+ "name": "Item Kitchen Mapping",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,7 +1,38 @@
-.DS_Store
+S.DS_Store
 *.pyc
 *.egg-info
 *.swp
 tags
 node_modules
 __pycache__
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Env
+.env
+
+# Bench / ERPNext (IMPORTANT 🔥)
+sites/
+assets/
+*.sqlite3
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Misc
+*.egg-info
+dist/
+build/

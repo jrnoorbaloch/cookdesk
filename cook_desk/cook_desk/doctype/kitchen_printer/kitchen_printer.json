@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:printer_name",
+ "creation": "2026-04-09 17:07:28.891756",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "printer_name",
+  "ip_address",
+  "port",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "printer_name",
+   "fieldtype": "Data",
+   "label": "Printer Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "default": "9100",
+   "fieldname": "port",
+   "fieldtype": "Int",
+   "label": "Port"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-09 17:10:18.599114",
+ "modified_by": "Administrator",
+ "module": "Cook Desk",
+ "name": "Kitchen Printer",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
