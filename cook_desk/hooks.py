@@ -9,6 +9,16 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+doc_events = {
+    "POS Invoice": {
+        "on_submit": "cook_desk.services.kot.process_pos_invoice"
+    }
+}
+
+doctype_js = {
+    "Kitchen Printer": "public/js/kitchen_printer.js"
+}
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/cook_desk/css/cook_desk.css"
 # app_include_js = "/assets/cook_desk/js/cook_desk.js"

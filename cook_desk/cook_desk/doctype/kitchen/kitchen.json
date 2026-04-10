@@ -7,7 +7,7 @@
  "engine": "InnoDB",
  "field_order": [
   "kitchen_name",
-  "printer_ip",
+  "printer",
   "is_active"
  ],
  "fields": [
@@ -18,21 +18,21 @@
    "unique": 1
   },
   {
-   "fieldname": "printer_ip",
-   "fieldtype": "Link",
-   "label": "Printer IP",
-   "options": "Kitchen Printer"
-  },
-  {
    "default": "0",
    "fieldname": "is_active",
    "fieldtype": "Check",
    "label": "Is Active"
+  },
+  {
+   "fieldname": "printer",
+   "fieldtype": "Link",
+   "label": "Printer IP",
+   "options": "Kitchen Printer"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-09 17:09:13.459017",
+ "modified": "2026-04-10 11:42:18.388355",
  "modified_by": "Administrator",
  "module": "Cook Desk",
  "name": "Kitchen",
